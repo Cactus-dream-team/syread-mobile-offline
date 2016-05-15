@@ -2,16 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-    <Button
-        android:id="@+id/MyButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Hello" />
-    <TextView
-        android:text="Recent posts:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="361.5dp"
-        android:id="@+id/textView1" />
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <WebView
+        android:layout_width="383.0dp"
+        android:layout_height="550.5dp"
+        android:id="@+id/webView1"
+        android:layout_marginBottom="567.5dp"
+        android:layout_marginRight="282.5dp" />
 </LinearLayout>
